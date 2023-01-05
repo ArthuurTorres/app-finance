@@ -1,17 +1,16 @@
 import { createGlobalStyle } from "styled-components";
 
 const Global = createGlobalStyle`
+  
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+  }
 
-*{
-  margin: 0;
-  padding: 0;
-}
-
-
-body{
-  font-family: monospace;
-  background: #f2f2f2;
-}
+  body {
+    background-color: #f2f2f2;
+  }
 `;
 
-export default Global
+export default Global;

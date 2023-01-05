@@ -1,6 +1,5 @@
-import React from 'react'
-import * as C from './styles'
-
+import React from "react";
+import * as C from "./styles";
 
 const ResumeItem = ({ title, Icon, value }) => {
   return (
@@ -11,7 +10,7 @@ const ResumeItem = ({ title, Icon, value }) => {
       </C.Header>
       <C.Total>{value}</C.Total>
     </C.Container>
-  )
-}
+  );
+};
 
 export default ResumeItem;
