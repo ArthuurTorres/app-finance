@@ -39,16 +39,20 @@ export const RadioGroup = styled.div`
   input {
     margin-left: 20px;
     margin-right: 5px;
-    accent-color: black;
     margin-top: 0;
   }
 `;
 
 export const Button = styled.button`
   padding: 5px 10px;
-  border: none;
+  border: 2px solid transparent;
   border-radius: 5px;
   cursor: pointer;
   color: white;
-  background-color: teal;
+  background-color: green;
+  &:hover{
+    border-color: black;
+    transition: 0.7s;
+  }
 `;
+

@@ -48,14 +48,16 @@ const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
         </C.InputContent>
         <C.RadioGroup>
           <C.Input
+            style={{ accentColor: "green" }}
             type="radio"
-            id="rIncome"
+            id="rIncome"k
             defaultChecked
             name="group1"
             onChange={() => setExpense(!isExpense)}
           />
           <C.Label htmlFor="rIncome">Entrada</C.Label>
           <C.Input
+            style={{ accentColor: "red" }}
             type="radio"
             id="rExpenses"
             name="group1"
